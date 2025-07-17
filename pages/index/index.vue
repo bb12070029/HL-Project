@@ -10,9 +10,6 @@
         src="https://vdept3.bdstatic.com/mda-rf6c7iw60pstfmte/cae_h264/1749285684710430462/mda-rf6c7iw60pstfmte.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1752728987-0-0-3ef47a8f171796891c3bbee23d2d28ba&bcevod_channel=searchbox_feed&cr=0&cd=0&pd=1&pt=3&logid=0587569473&vid=9597928867583323449&klogid=0587569473&abtest="
       ></video>
       <view class="banner-content">
-        <view class="play-button" @click="playVideo">
-          <u-icon name="play-circle-o" size="60" color="#ffffff" />
-        </view>
         <view class="main-title">河北沙城经济开发区企业服务驿站</view>
         <view class="subtitle">创新·协调·绿色·开放·共享</view>
       </view>
@@ -59,7 +56,11 @@
             </view>
             <view class="news-date">
               {{ news.date }}
-              <u-image width="26rpx" height="19rpx" src="@/static/icons/arrowRight.png" />
+              <u-image
+                width="26rpx"
+                height="19rpx"
+                src="@/static/icons/arrowRight.png"
+              />
             </view>
           </view>
         </view>
@@ -146,14 +147,7 @@ const goToUviewDemo = () => {
 </script>
 
 <style lang="scss" scoped>
-// 定义变量
-$primary-color: #1989fa;
-$text-color: #333333;
-$text-color-light: #999999;
-$bg-color: #f7f8fa;
-$white: #ffffff;
-$border-color: #f5f5f5;
-$shadow-light: rgba(0, 0, 0, 0.5);
+@import "@/static/style.scss";
 
 @mixin title-text {
   display: inline-block;
@@ -181,38 +175,29 @@ $shadow-light: rgba(0, 0, 0, 0.5);
   .banner-bg {
     height: 700rpx;
     width: 100%;
+  }
+  .banner-content {
+    position: absolute;
+    width: 703rpx;
+    height: 156rpx;
+    bottom: 100rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    padding: 40rpx;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: $white;
+    text-align: center;
 
-    .banner-content {
-      position: relative;
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 10;
-      padding: 40rpx;
+    .main-title {
+      font-size: 40rpx;
+      font-weight: bold;
+      line-height: 1.4;
+      margin-bottom: 30rpx;
+    }
 
-      .play-button {
-        margin-bottom: 20rpx;
-        opacity: 0.8;
-      }
-
-      .main-title {
-        font-size: 36rpx;
-        font-weight: bold;
-        color: $white;
-        text-align: center;
-        line-height: 1.4;
-        margin-bottom: 16rpx;
-      }
-
-      .subtitle {
-        font-size: 24px;
-        color: $white;
-        text-align: center;
-        opacity: 0.9;
-        text-shadow: 12gba (0, 0, 0, 0.3);
-      }
+    .subtitle {
+      font-size: 30rpx;
     }
   }
 }

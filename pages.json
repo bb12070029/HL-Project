@@ -26,15 +26,6 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
-    },
-    {
-      "path": "pages/test-image/test-image",
-      "style": {
-        "navigationBarTitleText": "图片测试",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
     }
   ],
   "tabBar": {
