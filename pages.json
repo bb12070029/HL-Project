@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "企业服务驿站",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/park-intro/park-intro",
+      "style": {
+        "navigationBarTitleText": "园区简介",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/financial/financial",
+      "style": {
+        "navigationBarTitleText": "金融服务",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/test-image/test-image",
+      "style": {
+        "navigationBarTitleText": "图片测试",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1989fa",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/index.png",
+        "selectedIconPath": "static/icons/index_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/park-intro/park-intro",
+        "iconPath": "static/icons/park.png",
+        "selectedIconPath": "static/icons/park_active.png",
+        "text": "园区简介"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "企业服务驿站",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+	        "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	}
+} 
