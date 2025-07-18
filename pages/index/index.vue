@@ -82,8 +82,18 @@ import supervisionService from "@/static/images/index/businessSupervision.png";
 
 // 响应式数据
 const services = ref([
-  { name: "金融服务", icon: "gold-coin-o", path: financialService },
-  { name: "科技申报", icon: "shop-o", path: techService },
+  {
+    name: "金融服务",
+    icon: "gold-coin-o",
+    path: financialService,
+    url: "/pages/financial/index",
+  },
+  {
+    name: "科技申报",
+    icon: "shop-o",
+    path: techService,
+    url: "/pages/technology/index",
+  },
   { name: "资源共享", icon: "share-o", path: resourceSharing },
   { name: "法律服务", icon: "balance-o", path: legalService },
   { name: "项目投资", icon: "chart-trending-o", path: investmentService },
@@ -120,13 +130,13 @@ const playVideo = () => {
 
 const navigateToService = (service) => {
   // 根据服务类型跳转到对应页面
-  if (service.name === "金融服务") {
+  if (service.url) {
     uni.navigateTo({
-      url: "/pages/financial/financial",
+      url: service.url,
     });
   } else {
     uni.showToast({
-      title: `进入${service.name}`,
+      title: `暂未开放${service.name}`,
       icon: "none",
     });
   }
@@ -148,19 +158,6 @@ const goToUviewDemo = () => {
 
 <style lang="scss" scoped>
 @import "@/static/style.scss";
-
-@mixin title-text {
-  display: inline-block;
-  padding: 3rpx 15rpx;
-  font-weight: 500;
-  font-size: 34rpx;
-  color: $text-color;
-  line-height: 47rpx;
-  background-image: url("@/static/icons/title_icon.png");
-  background-size: 27rpx 27rpx;
-  background-repeat: no-repeat;
-  background-position: right top;
-}
 
 .container {
   background: $bg-color;

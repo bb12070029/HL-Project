@@ -81,7 +81,7 @@ import { ref } from "vue";
 @import "@/static/style.scss";
 .container {
   background-color: #0549fa;
-  padding: 20rpx;
+  padding: 30rpx;
   position: relative;
   .banner-image {
     width: 100%;

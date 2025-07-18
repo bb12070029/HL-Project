@@ -10,7 +10,7 @@
       }
     },
     {
-      "path": "pages/park-intro/park-intro",
+      "path": "pages/park-intro/index",
       "style": {
         "navigationBarTitleText": "园区简介",
         "navigationBarBackgroundColor": "#1989fa",
@@ -19,9 +19,18 @@
       }
     },
     {
-      "path": "pages/financial/financial",
+      "path": "pages/financial/index",
       "style": {
         "navigationBarTitleText": "金融服务",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/technology/index",
+      "style": {
+        "navigationBarTitleText": "科技申报",
         "navigationBarBackgroundColor": "#1989fa",
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
@@ -41,7 +50,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/park-intro/park-intro",
+        "pagePath": "pages/park-intro/index",
         "iconPath": "static/icons/park.png",
         "selectedIconPath": "static/icons/park_active.png",
         "text": "园区简介"
