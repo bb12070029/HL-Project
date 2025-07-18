@@ -7,7 +7,7 @@
         autoplay
         loop
         muted
-        src="https://vdept3.bdstatic.com/mda-rf6c7iw60pstfmte/cae_h264/1749285684710430462/mda-rf6c7iw60pstfmte.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1752728987-0-0-3ef47a8f171796891c3bbee23d2d28ba&bcevod_channel=searchbox_feed&cr=0&cd=0&pd=1&pt=3&logid=0587569473&vid=9597928867583323449&klogid=0587569473&abtest="
+        src="https://vdept3.bdstatic.com/mda-rfpzzitvdh9bza75/cae_h264/1750821649973318647/mda-rfpzzitvdh9bza75.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1752832173-0-0-c2749c80a78b1a2ff7e039d4c561c161&bcevod_channel=searchbox_feed&cr=0&cd=0&pd=1&pt=3&logid=2973419876&vid=3255999975165482622&klogid=2973419876&abtest="
       ></video>
       <view class="banner-content">
         <view class="main-title">河北沙城经济开发区企业服务驿站</view>
