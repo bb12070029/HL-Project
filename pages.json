@@ -35,6 +35,15 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    },
+    {
+      "path": "pages/resourceSharing/index",
+      "style": {
+        "navigationBarTitleText": "资源共享",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
     }
   ],
   "tabBar": {

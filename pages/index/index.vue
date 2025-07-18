@@ -94,7 +94,12 @@ const services = ref([
     path: techService,
     url: "/pages/technology/index",
   },
-  { name: "资源共享", icon: "share-o", path: resourceSharing },
+  {
+    name: "资源共享",
+    icon: "share-o",
+    path: resourceSharing,
+    url: "/pages/resourceSharing/index",
+  },
   { name: "法律服务", icon: "balance-o", path: legalService },
   { name: "项目投资", icon: "chart-trending-o", path: investmentService },
   { name: "诉求反映", icon: "search", path: feedbackService },

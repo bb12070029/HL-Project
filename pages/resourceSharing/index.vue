@@ -10,28 +10,20 @@
     </view> -->
     <view class="content">
       <view class="content-header">
-        <view class="content-title">金融服务</view>
+        <view class="content-title">资源共享 </view>
         <view class="content-desc"
-          >为切实提升园区营商环境，进一步优化融资服务环境，解决企业融资难、融资慢问题，打通融资助企"最后一公里"，河北沙城经济开发区牵头建立融资服务"直通车"，搭建高效的沟通桥梁，为企业提供适配的金融服务，推动开发区企业高质量发展。
+          >为切实提升园区营商环境，帮助企业开拓市场，提升园区企业资源内循环解决企业上下游资源匮乏问题，打通河北沙城经济开发区牵头建立"资源共享池"，搭建高效的沟通桥梁，为企业提供适配的共享服务，推动开发区企业高质量发展。
         </view>
       </view>
       <view class="content-list">
         <view class="content-item">
           <image
-            src="@/static/images/financial/btnBg.png"
-            class="content-item-image"
-            mode="widthFix"
-          />
-          <text class="content-item-title">金融产品服务</text>
-        </view>
-        <view class="content-item">
-          <image
             src="@/static/images/financial/btnBg2.png"
             class="content-item-image"
             mode="widthFix"
           />
           <text class="content-item-title content-item-title-2"
-            >企业挂牌上市服务</text
+            >企业产品展示</text
           >
         </view>
         <view class="content-item">
@@ -41,27 +33,32 @@
             mode="widthFix"
           />
           <text class="content-item-title content-item-title-2"
-            >企业融资服务需求</text
+            >园区空闲厂房</text
           >
         </view>
       </view>
-      <!-- 风险提示 -->
-      <view class="risk-warning">
-        <image
-          src="@/static/images/financial/warning.png"
-          class="risk-warning-bg"
-          mode="widthFix"
-        />
-        <view class="risk-warning-content">
-          <view class="risk-warning-title">
-            <image
-              src="@/static/icons/warningIcon.png"
-              class="risk-warning-title-image"
-            />
-            <text class="risk-warning-title-text">风险</text>提示
+      <!-- 咨询 -->
+      <view class="consult">
+        <view class="semicircle"></view>
+        <text class="semicircleCard-title">资源共享咨询 </text>
+        <view class="consult-content">
+          <view class="consult-top">
+            <view class="consult-top-item">
+              <text class="consult-top-item-title">联系人：</text>
+              <text>李经理</text>
+            </view>
+            <view class="consult-top-item" @click="callPhone">
+              <text class="consult-top-item-title">联系电话：</text>
+              <text>0313-6809816<up-icon name="phone-fill" size="20" color="#0345FA"></up-icon></text>
+            </view>
           </view>
-          <view class="risk-warning-desc">
-            银行机构不收取除正常利息之外的手续费、中介费等其他费用，谨防各类电信诈骗和非法中介、"资金捐客"等。
+          <view class="consult-desc">
+            <image
+              src="@/static/images/index/businessSupervision.png"
+              class="consult-desc-image"
+              mode="widthFix"
+            />
+            <view class="consult-desc-text">扫码访问资源共享平台</view>
           </view>
         </view>
       </view>
@@ -71,6 +68,11 @@
 
 <script setup>
 import { ref } from "vue";
+const callPhone = () => {
+  uni.makePhoneCall({
+    phoneNumber: "13800138000",
+  });
+};
 </script>
 
 <style lang="scss" scoped>
@@ -128,41 +130,45 @@ import { ref } from "vue";
         }
       }
     }
-    .risk-warning {
-      position: relative;
-      margin-top: 20rpx;
-      background-color: $white;
-      border-radius: 18rpx;
-      .risk-warning-bg {
-        width: 100%;
-      }
-      .risk-warning-content {
-        padding: 26rpx 42rpx;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        .risk-warning-title {
-          font-size: 28rpx;
-          color: $text-color;
-          margin-bottom: 28rpx;
-          .risk-warning-title-text {
-            color: #ff3000;
-          }
-          .risk-warning-title-image {
-            width: 43rpx;
-            height: 49rpx;
-            margin-right: 15rpx;
-            vertical-align: middle;
+    .consult {
+      @include semicircleCard;
+      .consult-content {
+        border: 1px solid #0345fa;
+        border-radius: 10rpx;
+        .consult-top {
+          background-color: #EDF1FF;
+          border-radius: 10rpx 10rpx 0 0;
+          padding: 25rpx 35rpx;
+          .consult-top-item {
+            font-size: 24rpx;
+            .consult-top-item-title {
+              color: $text-color-light;
+            }
+            .consult-top-item-text {
+              color: #000000;
+            }
           }
         }
-        .risk-warning-desc {
-          font-size: 24rpx;
-          color: $text-color;
+        .consult-desc {
+          text-align: center;
+          padding: 50rpx 0;
+          .consult-desc-image {
+            width: 260rpx;
+            height: 260rpx;
+          }
+          .consult-desc-text {
+            font-size: 24rpx;
+            color: $text-color-light;
+            line-height: 40rpx;
+          }
         }
       }
     }
+  }
+
+  ::v-deep .u-icon {
+    display: inline-block;
+    vertical-align: middle;
   }
 }
 </style>

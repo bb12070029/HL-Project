@@ -19,6 +19,7 @@ $shadow-light: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-position: right top;
 }
+
 @mixin semicircle {
   width: 30rpx;
   height: 30rpx;
@@ -29,4 +30,80 @@ $shadow-light: rgba(0, 0, 0, 0.5);
   left: -15.5rpx;
   right: 0;
   bottom: 0;
+}
+
+@mixin semicircleCard {
+  position: relative;
+  margin-bottom: 10rpx;
+  padding: 40rpx;
+  overflow: hidden;
+  background-color: $white;
+  border-radius: 18rpx;
+
+  .semicircle {
+    @include semicircle;
+  }
+
+  .semicircleCard-title {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #000000;
+    line-height: 41rpx;
+    margin-bottom: 38rpx;
+  }
+}
+
+@mixin organizationCard {
+  .organizationCard-desc {
+    border: 1px solid #0345fa;
+    border-radius: 10rpx;
+    margin-bottom: 23rpx;
+
+    .organizationCard-desc-item {
+      padding: 0;
+      margin: 0;
+
+      .organizationCard-desc-item-image-box {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        padding: 30rpx 15rpx;
+
+        .organizationCard-desc-item-image {
+          width: 37rpx;
+          height: 37rpx;
+          margin-right: 17rpx;
+        }
+
+        .organizationCard-desc-item-title {
+          width: 100%;
+          line-height: 40rpx;
+          font-size: 24rpx;
+          color: $text-color-light;
+        }
+
+        .organizationCard-desc-item-text {
+          color: #000;
+          font-size: 28rpx;
+          line-height: 30rpx;
+          text-align: center;
+          margin-top: 15rpx;
+        }
+      }
+    }
+
+  }
+
+  .organizationCard-phone {
+    background: #edf2ff;
+    font-size: 24rpx;
+    padding: 22rpx 0 17rpx 0;
+    text-align: center;
+    color: $text-color-light;
+    border-radius: 0 0 10rpx 10rpx;
+  }
+
+  .organizationCard-phone-number {
+    color: #0345fa;
+  }
 }
