@@ -44,6 +44,15 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    },
+    {
+      "path": "pages/legalService/index",
+      "style": {
+        "navigationBarTitleText": "法律服务",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
     }
   ],
   "tabBar": {

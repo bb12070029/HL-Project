@@ -94,6 +94,7 @@ $shadow-light: rgba(0, 0, 0, 0.5);
 
   }
 
+
   .organizationCard-phone {
     background: #edf2ff;
     font-size: 24rpx;
@@ -101,9 +102,18 @@ $shadow-light: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: $text-color-light;
     border-radius: 0 0 10rpx 10rpx;
+
+    .organizationCard-phone-item {
+      line-height: 40rpx;
+    }
   }
 
   .organizationCard-phone-number {
     color: #0345fa;
   }
+
+  .organizationCard-phone-name {
+    color: #000;
+  }
+
 }

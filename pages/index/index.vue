@@ -100,7 +100,12 @@ const services = ref([
     path: resourceSharing,
     url: "/pages/resourceSharing/index",
   },
-  { name: "法律服务", icon: "balance-o", path: legalService },
+  {
+    name: "法律服务",
+    icon: "balance-o",
+    path: legalService,
+    url: "/pages/legalService/index",
+  },
   { name: "项目投资", icon: "chart-trending-o", path: investmentService },
   { name: "诉求反映", icon: "search", path: feedbackService },
   { name: "人力资源", icon: "friends-o", path: hrService },
