@@ -1,7 +1,7 @@
 <template>
   <view class="container">
     <image
-      src="@/static/images/park-intro/header.png"
+      src="@/static/images/parkIntro/header.png"
       class="banner-image"
       mode="widthFix"
     />
@@ -13,56 +13,56 @@
     <view class="content">
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container1.png"
+          src="@/static/images/parkIntro/container1.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container2.png"
+          src="@/static/images/parkIntro/container2.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container3.png"
+          src="@/static/images/parkIntro/container3.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container4.png"
+          src="@/static/images/parkIntro/container4.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container5.png"
+          src="@/static/images/parkIntro/container5.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container6.png"
+          src="@/static/images/parkIntro/container6.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container7.png"
+          src="@/static/images/parkIntro/container7.png"
           class="section-intro-image"
           mode="widthFix"
         />
       </view>
       <view class="section-intro">
         <image
-          src="@/static/images/park-intro/container8.png"
+          src="@/static/images/parkIntro/container8.png"
           class="section-intro-image"
           mode="widthFix"
         />

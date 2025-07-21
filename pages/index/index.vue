@@ -106,8 +106,13 @@ const services = ref([
     path: legalService,
     url: "/pages/legalService/index",
   },
-  { name: "项目投资", icon: "chart-trending-o", path: investmentService },
-  { name: "诉求反映", icon: "search", path: feedbackService },
+  {
+    name: "项目投资",
+    icon: "chart-trending-o",
+    path: investmentService,
+    url: "/pages/projectInvestment/index",
+  },
+  { name: "诉求反映", icon: "search", path: feedbackService,url: "/pages/demand/index" },
   { name: "人力资源", icon: "friends-o", path: hrService },
   { name: "营商监督", icon: "chart-trending-o", path: supervisionService },
 ]);

@@ -26,7 +26,7 @@
   - 营商监督 (businessSupervision.png)
 - 园区动态新闻列表
 
-### 园区简介 (pages/park-intro/park-intro)
+### 园区简介 (pages/parkIntro/parkIntro)
 - 园区基本信息介绍
 - 园区优势展示
 - 联系方式
@@ -58,8 +58,8 @@
 ├── pages/                 # 页面目录
 │   ├── index/            # 首页
 │   │   └── index.vue
-│   ├── park-intro/       # 园区简介
-│   │   └── park-intro.vue
+│   ├── parkIntro/       # 园区简介
+│   │   └── parkIntro.vue
 │   ├── financial/        # 金融服务
 │   │   └── financial.vue
 │   └── test-image/       # 图片测试

@@ -10,7 +10,7 @@
       }
     },
     {
-      "path": "pages/park-intro/index",
+      "path": "pages/parkIntro/index",
       "style": {
         "navigationBarTitleText": "园区简介",
         "navigationBarBackgroundColor": "#1989fa",
@@ -53,6 +53,24 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    },
+    {
+      "path": "pages/projectInvestment/index",
+      "style": {
+        "navigationBarTitleText": "项目投资",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/demand/index",
+      "style": {
+        "navigationBarTitleText": "诉求反映",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
     }
   ],
   "tabBar": {
@@ -68,7 +86,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/park-intro/index",
+        "pagePath": "pages/parkIntro/index",
         "iconPath": "static/icons/park.png",
         "selectedIconPath": "static/icons/park_active.png",
         "text": "园区简介"
