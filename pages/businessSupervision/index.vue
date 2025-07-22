@@ -136,6 +136,26 @@
           </view>
         </view>
       </view>
+      <!-- 风险提示 -->
+      <view class="risk-warning">
+        <image
+          src="@/static/images/demand/tips.png"
+          class="risk-warning-bg"
+          mode="widthFix"
+        />
+        <view class="risk-warning-content">
+          <view class="risk-warning-title">
+            <image
+              src="@/static/images/demand/tipsIcon.png"
+              class="risk-warning-title-image"
+            />
+            <text class="risk-warning-title-text">温馨</text>提示
+          </view>
+          <view class="risk-warning-desc">
+            恶意虚假举报将纳入信用记录。为了更好地解决您的问题，请提供真实、准确、详细的信息。
+          </view>
+        </view>
+      </view>
     </view>
   </view>
 </template>
@@ -299,6 +319,41 @@ const callPhone = (number) => {
             width: 27rpx;
             height: 27rpx;
           }
+        }
+      }
+    }
+    .risk-warning {
+      position: relative;
+      margin-top: 20rpx;
+      background-color: $white;
+      border-radius: 18rpx;
+      .risk-warning-bg {
+        width: 100%;
+      }
+      .risk-warning-content {
+        padding: 26rpx 42rpx;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        .risk-warning-title {
+          font-size: 28rpx;
+          color: $text-color;
+          margin-bottom: 28rpx;
+          .risk-warning-title-text {
+            color: #ff8900;
+          }
+          .risk-warning-title-image {
+            width: 35rpx;
+            height: 43rpx;
+            margin-right: 15rpx;
+            vertical-align: top;
+          }
+        }
+        .risk-warning-desc {
+          font-size: 24rpx;
+          color: $text-color;
         }
       }
     }
