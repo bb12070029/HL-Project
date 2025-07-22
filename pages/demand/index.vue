@@ -486,10 +486,10 @@ const callPhone = (number) => {
             color: #FF8900;
           }
           .risk-warning-title-image {
-            width: 43rpx;
-            height: 49rpx;
+            width: 35rpx;
+            height: 43rpx;
             margin-right: 15rpx;
-            vertical-align: middle;
+            vertical-align: top;
           }
         }
         .risk-warning-desc {

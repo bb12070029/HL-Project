@@ -6,7 +6,7 @@
     "versionCode" : "100",
     "transformPx" : false,
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx4c2a609947f80930",
         "setting" : {
             "urlCheck" : false,
             "es6" : true,
@@ -44,6 +44,9 @@
             "minifyWXML" : true,
             "showES6CompileOption" : false,
             "useCompilerPlugins" : false
+        },
+        "optimization": {
+            "subPackages": true
         }
     },
     "vueVersion" : "3"

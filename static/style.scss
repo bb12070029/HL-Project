@@ -118,3 +118,10 @@ $link-color: #0345fa;
   }
 
 }
+@mixin leftLine {
+  width: 7rpx;
+  height: 15rpx;
+  background: $link-color;
+  border-radius: 4rpx;
+  margin-right: 10rpx;
+}

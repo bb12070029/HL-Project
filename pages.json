@@ -71,6 +71,24 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    },
+    {
+      "path": "pages/humanResource/index",
+      "style": {
+        "navigationBarTitleText": "人力资源",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/businessSupervision/index",
+      "style": {
+        "navigationBarTitleText": "营商监督",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
     }
   ],
   "tabBar": {

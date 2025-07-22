@@ -112,9 +112,24 @@ const services = ref([
     path: investmentService,
     url: "/pages/projectInvestment/index",
   },
-  { name: "诉求反映", icon: "search", path: feedbackService,url: "/pages/demand/index" },
-  { name: "人力资源", icon: "friends-o", path: hrService },
-  { name: "营商监督", icon: "chart-trending-o", path: supervisionService },
+  {
+    name: "诉求反映",
+    icon: "search",
+    path: feedbackService,
+    url: "/pages/demand/index",
+  },
+  {
+    name: "人力资源",
+    icon: "friends-o",
+    path: hrService,
+    url: "/pages/humanResource/index",
+  },
+  {
+    name: "营商监督",
+    icon: "chart-trending-o",
+    path: supervisionService,
+    url: "/pages/businessSupervision/index",
+  },
 ]);
 
 const newsList = ref([
