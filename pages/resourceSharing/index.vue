@@ -16,7 +16,7 @@
         </view>
       </view>
       <view class="content-list">
-        <view class="content-item">
+        <view class="content-item" @click="navigateToBusiness">
           <image
             src="@/static/images/financial/btnBg2.png"
             class="content-item-image"
@@ -26,7 +26,7 @@
             >企业产品展示</text
           >
         </view>
-        <view class="content-item">
+        <view class="content-item" @click="navigateToWorkshop">
           <image
             src="@/static/images/financial/btnBg2.png"
             class="content-item-image"
@@ -71,6 +71,16 @@ import { ref } from "vue";
 const callPhone = () => {
   uni.makePhoneCall({
     phoneNumber: "13800138000",
+  });
+};
+const navigateToBusiness = () => {
+  uni.navigateTo({
+    url: "/pages/resourceSharing/business",
+  });
+};
+const navigateToWorkshop = () => {
+  uni.navigateTo({
+    url: "/pages/resourceSharing/workshop",
   });
 };
 </script>

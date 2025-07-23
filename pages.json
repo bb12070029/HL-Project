@@ -89,6 +89,24 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    },
+    {
+      "path": "pages/resourceSharing/business",
+      "style": {
+        "navigationBarTitleText": "园区企业",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/resourceSharing/workshop",
+      "style": {
+        "navigationBarTitleText": "园区空闲厂房",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
     }
   ],
   "tabBar": {
