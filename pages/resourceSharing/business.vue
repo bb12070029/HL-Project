@@ -10,7 +10,7 @@
         <u-tabs :list="tabsList" @click="tabClick"></u-tabs>
       </view>
       <view class="content-list">
-        <view class="content-item">
+        <view class="content-item" @click="navigateToDetail">
           <image
             src="@/static/images/resourceSharing/businessListImg.png"
             class="content-item-image"
@@ -60,6 +60,11 @@ const tabsList = ref([
 ]);
 const tabClick = (index) => {
   console.log(index);
+};
+const navigateToDetail = () => {
+  uni.navigateTo({
+    url: "/pages/resourceSharing/businessDetail",
+  });
 };
 </script>
 <style lang="scss" scoped>
