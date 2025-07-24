@@ -28,6 +28,15 @@
       }
     },
     {
+      "path": "pages/financial/product",
+      "style": {
+        "navigationBarTitleText": "金融产品服务方式",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
       "path": "pages/technology/index",
       "style": {
         "navigationBarTitleText": "科技申报",

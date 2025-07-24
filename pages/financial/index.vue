@@ -16,7 +16,7 @@
         </view>
       </view>
       <view class="content-list">
-        <view class="content-item">
+        <view class="content-item" @click="navigateToProduct">
           <image
             src="@/static/images/financial/btnBg.png"
             class="content-item-image"
@@ -71,6 +71,11 @@
 
 <script setup>
 import { ref } from "vue";
+const navigateToProduct = () => {
+  uni.navigateTo({
+    url: "/pages/financial/product",
+  });
+};
 </script>
 
 <style lang="scss" scoped>
