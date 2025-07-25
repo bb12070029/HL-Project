@@ -30,7 +30,7 @@
                 <view class="content-item-towBox-item-text">
                   在线提交诉求实时跟踪处理进度
                 </view>
-                <view class="content-item-towBox-item-btn">立即提交</view>
+                <view class="content-item-towBox-item-btn" @click="toSubmitDemand">立即提交</view>
               </view>
             </view>
             <view class="content-item-towBox-box">
@@ -231,9 +231,9 @@
 <script setup>
 import { ref } from "vue";
 
-const callPhone = (number) => {
-  uni.makePhoneCall({
-    phoneNumber: number,
+const toSubmitDemand = () => {
+  uni.navigateTo({
+    url: "/pages/demand/submitDemand",
   });
 };
 </script>
@@ -367,6 +367,7 @@ const callPhone = (number) => {
           height: 253rpx;
           position: relative;
           margin-bottom: 40rpx;
+          margin-right: 20rpx;
           .background-image {
             width: 100%;
             height: 100%;

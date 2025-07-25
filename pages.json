@@ -109,6 +109,15 @@
       }
     },
     {
+      "path": "pages/demand/submitDemand",
+      "style": {
+        "navigationBarTitleText": "提交诉求",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
       "path": "pages/humanResource/index",
       "style": {
         "navigationBarTitleText": "人力资源",
