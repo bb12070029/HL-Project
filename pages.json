@@ -55,6 +55,15 @@
       }
     },
     {
+      "path": "pages/financial/serversDemand",
+      "style": {
+        "navigationBarTitleText": "企业融资服务需求",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
       "path": "pages/technology/index",
       "style": {
         "navigationBarTitleText": "科技申报",

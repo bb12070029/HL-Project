@@ -34,7 +34,7 @@
             >企业挂牌上市服务</text
           >
         </view>
-        <view class="content-item">
+        <view class="content-item" @click="navigateToServersDemand">
           <image
             src="@/static/images/financial/btnBg2.png"
             class="content-item-image"
@@ -74,6 +74,11 @@ import { ref } from "vue";
 const navigateToProduct = () => {
   uni.navigateTo({
     url: "/pages/financial/product",
+  });
+};
+const navigateToServersDemand = () => {
+  uni.navigateTo({
+    url: "/pages/financial/serversDemand",
   });
 };
 </script>
