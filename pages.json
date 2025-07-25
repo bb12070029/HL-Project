@@ -37,6 +37,24 @@
       }
     },
     {
+      "path": "pages/financial/bank",
+      "style": {
+        "navigationBarTitleText": "银行详情",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/financial/productDetail",
+      "style": {
+        "navigationBarTitleText": "金融产品详情",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
       "path": "pages/technology/index",
       "style": {
         "navigationBarTitleText": "科技申报",

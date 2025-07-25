@@ -18,7 +18,7 @@
       <view class="content-list">
         <view class="semicircle"></view>
         <view class="semicircleCard-title">合作银行</view>
-        <view class="content-item">
+        <view class="content-item" @click="navigateToProductDetail">
           <image
             src="@/static/images/financial/bankIcon.png"
             class="content-item-image"
@@ -61,6 +61,11 @@
 
 <script setup>
 import { ref } from "vue";
+const navigateToProductDetail = () => {
+  uni.navigateTo({
+    url: "/pages/financial/bank",
+  });
+};
 </script>
 
 <style lang="scss" scoped>
@@ -105,16 +110,16 @@ import { ref } from "vue";
         margin-bottom: 10rpx;
         display: flex;
         align-items: center;
-        background-color: #ECF0FF;
+        background-color: #ecf0ff;
         border-radius: 10rpx;
-        padding:30rpx;
+        padding: 30rpx;
         .content-item-image {
           width: 38rpx;
           height: 34rpx;
-          margin-right:30rpx;
+          margin-right: 30rpx;
         }
         .content-item-content {
-          flex:1;
+          flex: 1;
           .content-item-content-title {
             font-weight: 400;
             font-size: 28rpx;
