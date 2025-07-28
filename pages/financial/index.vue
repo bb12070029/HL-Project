@@ -24,7 +24,7 @@
           />
           <text class="content-item-title">金融产品服务</text>
         </view>
-        <view class="content-item">
+        <view class="content-item" @click="navigateToListingServices">
           <image
             src="@/static/images/financial/btnBg2.png"
             class="content-item-image"
@@ -79,6 +79,11 @@ const navigateToProduct = () => {
 const navigateToServersDemand = () => {
   uni.navigateTo({
     url: "/pages/financial/serversDemand",
+  });
+};
+const navigateToListingServices = () => {
+  uni.navigateTo({
+    url: "/pages/financial/listingServices",
   });
 };
 </script>
