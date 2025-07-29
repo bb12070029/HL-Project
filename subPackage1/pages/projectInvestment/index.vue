@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
           <image
-            src="@/static/images/financial/banner.png"
+            src="@/subPackage3/static/financial/banner.png"
             class="banner-image"
             mode="widthFix"
           />
@@ -20,14 +20,14 @@
           <view class="semicircle"></view>
           <text class="semicircleCard-title">服务内容</text>
           <image
-            src="@/static/images/projectInvestment/banner.png"
+            src="@/subPackage1/static//projectInvestment/banner.png"
             class="content-item-image"
           />
           <view class="content-item-desc">
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon1.png"
+                  src="@/subPackage1/static/projectInvestment/icon1.png"
                   class="content-item-desc-item-image"
                 />
                 企业挂牌上市服务
@@ -36,7 +36,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon2.png"
+                  src="@/subPackage1/static/projectInvestment/icon2.png"
                   class="content-item-desc-item-image"
                 />
                 企业接待、座谈对接、商务接待等
@@ -45,7 +45,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon3.png"
+                  src="@/subPackage1/static/projectInvestment/icon3.png"
                   class="content-item-desc-item-image"
                 />
                 新项目匹配合适地块及闲置厂房
@@ -54,7 +54,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon4.png"
+                  src="@/subPackage1/static/projectInvestment/icon4.png"
                   class="content-item-desc-item-image"
                 />协助企业完成项目立项、工商注册、帐户开设、税务登记
               </view>
@@ -62,7 +62,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon5.png"
+                  src="@/subPackage1/static/projectInvestment/icon5.png"
                   class="content-item-desc-item-image"
                 />帮扶企业协调联系相关部门
               </view>
@@ -70,7 +70,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon6.png"
+                  src="@/subPackage1/static/projectInvestment/icon6.png"
                   class="content-item-desc-item-image"
                 />企业及产品在国家及省市展会、宣传推广平台展示展览
               </view>
@@ -78,7 +78,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/projectInvestment/icon7.png"
+                  src="@/subPackage1/static/projectInvestment/icon7.png"
                   class="content-item-desc-item-image"
                 />其他与新项目投资相关事项
               </view>
@@ -90,14 +90,14 @@
           <view class="number-box-list">
             <view class="number-box-item">
               <image
-                src="@/static/images/projectInvestment/icon8.png"
+                src="@/subPackage1/static/projectInvestment/icon8.png"
                 class="number-box-image"
               />
               <view class="number-box-item-text">联系人：张经理</view>
             </view>
             <view class="number-box-item">
               <image
-                src="@/static/images/projectInvestment/icon9.png"
+                src="@/subPackage1/static/projectInvestment/icon9.png"
                 class="number-box-image"
               />
               <view class="number-box-item-text">
@@ -108,14 +108,14 @@
             </view>
             <view class="number-box-item">
               <image
-                src="@/static/images/projectInvestment/icon10.png"
+                src="@/subPackage1/static/projectInvestment/icon10.png"
                 class="number-box-image"
               />
               <view class="number-box-item-text">邮箱：contact@hbzhineng.com </view>
             </view>
             <view class="number-box-item">
               <image
-                src="@/static/images/projectInvestment/icon11.png"
+                src="@/subPackage1/static/projectInvestment/icon11.png"
                 class="number-box-image"
               />
               <view class="number-box-item-text">地址：怀来县沙城经济开发区智造产业园B区12号</view>

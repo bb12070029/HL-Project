@@ -86,49 +86,49 @@ const services = ref([
     name: "金融服务",
     icon: "gold-coin-o",
     path: financialService,
-    url: "/pages/financial/index",
+    url: "/subPackage3/pages/financial/index",
   },
   {
     name: "科技申报",
     icon: "shop-o",
     path: techService,
-    url: "/pages/technology/index",
+    url: "/subPackage1/pages/technology/index",
   },
   {
     name: "资源共享",
     icon: "share-o",
     path: resourceSharing,
-    url: "/pages/resourceSharing/index",
+    url: "/subPackage2/pages/resourceSharing/index",
   },
   {
     name: "法律服务",
     icon: "balance-o",
     path: legalService,
-    url: "/pages/legalService/index",
+    url: "/subPackage1/pages/legalService/index",
   },
   {
     name: "项目投资",
     icon: "chart-trending-o",
     path: investmentService,
-    url: "/pages/projectInvestment/index",
+    url: "/subPackage1/pages/projectInvestment/index",
   },
   {
     name: "诉求反映",
     icon: "search",
     path: feedbackService,
-    url: "/pages/demand/index",
+    url: "/subPackage2/pages/demand/index",
   },
   {
     name: "人力资源",
     icon: "friends-o",
     path: hrService,
-    url: "/pages/humanResource/index",
+    url: "/subPackage1/pages/humanResource/index",
   },
   {
     name: "营商监督",
     icon: "chart-trending-o",
     path: supervisionService,
-    url: "/pages/businessSupervision/index",
+    url: "/subPackage1/pages/businessSupervision/index",
   },
 ]);
 
@@ -178,11 +178,6 @@ const viewNewsDetail = (news) => {
     icon: "none",
   });
   // 这里可以添加新闻详情页面跳转逻辑
-};
-const goToUviewDemo = () => {
-  uni.navigateTo({
-    url: "/pages/test-image/test-image",
-  });
 };
 </script>
 

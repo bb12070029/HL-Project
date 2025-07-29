@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
       <image
-        src="@/static/images/financial/banner.png"
+        src="@/subPackage3/static/financial/banner.png"
         class="banner-image"
         mode="widthFix"
       />
@@ -18,7 +18,7 @@
       <view class="content-list">
         <view class="content-item" @click="navigateToProduct">
           <image
-            src="@/static/images/financial/btnBg.png"
+            src="@/subPackage3/static/financial/btnBg.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -26,7 +26,7 @@
         </view>
         <view class="content-item" @click="navigateToListingServices">
           <image
-            src="@/static/images/financial/btnBg2.png"
+            src="@/subPackage3/static/financial/btnBg2.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -36,7 +36,7 @@
         </view>
         <view class="content-item" @click="navigateToServersDemand">
           <image
-            src="@/static/images/financial/btnBg2.png"
+            src="@/subPackage3/static/financial/btnBg2.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -48,7 +48,7 @@
       <!-- 风险提示 -->
       <view class="risk-warning">
         <image
-          src="@/static/images/financial/warning.png"
+          src="@/subPackage3/static/financial/warning.png"
           class="risk-warning-bg"
           mode="widthFix"
         />
@@ -73,17 +73,17 @@
 import { ref } from "vue";
 const navigateToProduct = () => {
   uni.navigateTo({
-    url: "/pages/financial/product",
+    url: "/subPackage3/pages/financial/product",
   });
 };
 const navigateToServersDemand = () => {
   uni.navigateTo({
-    url: "/pages/financial/serversDemand",
+    url: "/subPackage3/pages/financial/serversDemand",
   });
 };
 const navigateToListingServices = () => {
   uni.navigateTo({
-    url: "/pages/financial/listingServices",
+    url: "/subPackage3/pages/financial/listingServices",
   });
 };
 </script>

@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
         <image
-          src="@/static/images/financial/banner.png"
+          src="@/subPackage3/static/financial/banner.png"
           class="banner-image"
           mode="widthFix"
         />
@@ -23,7 +23,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/legalService/legal.png"
+                  src="@/subPackage1/static/legalService/legal.png"
                   class="content-item-desc-item-image"
                 />
                 在线法律咨询
@@ -68,7 +68,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/legalService/lineDown.png"
+                  src="@/subPackage1/static/legalService/lineDown.png"
                   class="content-item-desc-item-image"
                 />
                 线下服务支持
@@ -86,7 +86,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/legalService/enterprise.png"
+                  src="@/subPackage1/static/legalService/enterprise.png"
                   class="content-item-desc-item-image"
                 />
                 企业绿色窗口

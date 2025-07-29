@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
           <image
-            src="@/static/images/financial/banner.png"
+            src="@/subPackage3/static/financial/banner.png"
             class="banner-image"
             mode="widthFix"
           />
@@ -102,6 +102,7 @@
               name="1"
               multiple
               :maxCount="10"
+              accept="file"
             ></up-upload>
           </up-form-item>
           <view class="content-form-button">

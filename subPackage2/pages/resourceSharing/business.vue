@@ -12,7 +12,7 @@
       <view class="content-list">
         <view class="content-item" @click="navigateToDetail">
           <image
-            src="@/static/images/resourceSharing/businessListImg.png"
+            src="@/subPackage2/static/resourceSharing/businessListImg.png"
             class="content-item-image"
           />
           <view class="content-item-desc">
@@ -24,7 +24,7 @@
         </view>
         <view class="content-item">
           <image
-            src="@/static/images/resourceSharing/businessListImg.png"
+            src="@/subPackage2/static/resourceSharing/businessListImg.png"
             class="content-item-image"
           />
           <view class="content-item-desc">
@@ -63,7 +63,7 @@ const tabClick = (index) => {
 };
 const navigateToDetail = () => {
   uni.navigateTo({
-    url: "/pages/resourceSharing/businessDetail",
+    url: "/subPackage2/pages/resourceSharing/businessDetail",
   });
 };
 </script>

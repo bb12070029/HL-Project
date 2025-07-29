@@ -22,7 +22,7 @@
           <view class="content-item-towBox">
             <view class="content-item-towBox-box">
               <image
-                src="@/static/images/demand/serverBg.png"
+                src="@/subPackage2/static/demand/serverBg.png"
                 class="background-image"
               />
               <view class="content-item-towBox-box-content">
@@ -35,7 +35,7 @@
             </view>
             <view class="content-item-towBox-box">
               <image
-                src="@/static/images/demand/serverBg.png"
+                src="@/subPackage2/static/demand/serverBg.png"
                 class="background-image"
               />
               <view class="content-item-towBox-box-content">
@@ -52,7 +52,7 @@
             <view class="content-item-desc-item">
               <view class="content-item-desc-item-title">
                 <image
-                  src="@/static/images/demand/icon.png"
+                  src="@/subPackage2/static/demand/icon.png"
                   class="content-item-desc-item-image"
                 />
                 线下窗口
@@ -71,7 +71,7 @@
               <view class="flowBox-item-number">
                 01
                 <image
-                  src="@/static/images/demand/numBg.png"
+                  src="@/subPackage2/static/demand/numBg.png"
                   mode="aspectFit"
                   class="flowBox-item-image"
                 />
@@ -87,7 +87,7 @@
               <view class="flowBox-item-number">
                 02
                 <image
-                  src="@/static/images/demand/numBg.png"
+                  src="@/subPackage2/static/demand/numBg.png"
                   mode="aspectFit"
                   class="flowBox-item-image"
                 />
@@ -103,7 +103,7 @@
               <view class="flowBox-item-number">
                 03
                 <image
-                  src="@/static/images/demand/numBg.png"
+                  src="@/subPackage2/static/demand/numBg.png"
                   mode="aspectFit"
                   class="flowBox-item-image"
                 />
@@ -117,7 +117,7 @@
               <view class="flowBox-item-number">
                 04
                 <image
-                  src="@/static/images/demand/numBg.png"
+                  src="@/subPackage2/static/demand/numBg.png"
                   mode="aspectFit"
                   class="flowBox-item-image"
                 />
@@ -133,7 +133,7 @@
               <view class="flowBox-item-number">
                 05
                 <image
-                  src="@/static/images/demand/numBg.png"
+                  src="@/subPackage2/static/demand/numBg.png"
                   mode="aspectFit"
                   class="flowBox-item-image"
                 />
@@ -150,7 +150,7 @@
           <text class="semicircleCard-title">注意事项</text>
           <view class="content-item-tips">
             <image
-              src="@/static/images/demand/yellowIcon.png"
+              src="@/subPackage2/static/demand/yellowIcon.png"
               class="content-item-desc-image"
             />
             <view class="content-item-tips-item">
@@ -161,7 +161,7 @@
           </view>
           <view class="content-item-tips">
             <image
-              src="@/static/images/demand/yellowIcon.png"
+              src="@/subPackage2/static/demand/yellowIcon.png"
               class="content-item-desc-image"
             />
             <view class="content-item-tips-item">
@@ -172,7 +172,7 @@
           </view>
           <view class="content-item-tips content-item-tips-last">
             <image
-              src="@/static/images/demand/yellowIcon.png"
+              src="@/subPackage2/static/demand/yellowIcon.png"
               class="content-item-desc-image"
             />
             <view class="content-item-tips-item">
@@ -181,21 +181,21 @@
               </view>
               <view class="content-item-tips-item-text">
                 <image
-                  src="@/static/images/demand/redIcon.png"
+                  src="@/subPackage2/static/demand/redIcon.png"
                   class="content-item-tips-item-text-image"
                 />
                 已进入司法程序或信访程序  
               </view>
               <view class="content-item-tips-item-text">
                 <image
-                  src="@/static/images/demand/redIcon.png"
+                  src="@/subPackage2/static/demand/redIcon.png"
                   class="content-item-tips-item-text-image"
                 />
                 涉及商业秘密、个人隐私且未授权   
               </view>
               <view class="content-item-tips-item-text">
                 <image
-                  src="@/static/images/demand/redIcon.png"
+                  src="@/subPackage2/static/demand/redIcon.png"
                   class="content-item-tips-item-text-image"
                 />
                 内容空泛无具体诉求事项   
@@ -207,14 +207,14 @@
       <!-- 风险提示 -->
       <view class="risk-warning">
         <image
-          src="@/static/images/demand/tips.png"
+          src="@/subPackage2/static/demand/tips.png"
           class="risk-warning-bg"
           mode="widthFix"
         />
         <view class="risk-warning-content">
           <view class="risk-warning-title">
             <image
-              src="@/static/images/demand/tipsIcon.png"
+              src="@/subPackage2/static/demand/tipsIcon.png"
               class="risk-warning-title-image"
             />
             <text class="risk-warning-title-text">温馨</text>提示
@@ -233,7 +233,7 @@ import { ref } from "vue";
 
 const toSubmitDemand = () => {
   uni.navigateTo({
-    url: "/pages/demand/submitDemand",
+    url: "/subPackage2/pages/demand/submitDemand",
   });
 };
 </script>
@@ -412,7 +412,7 @@ const toSubmitDemand = () => {
             top: 93rpx;
             width: 2rpx;
             height: 100rpx;
-            background-image: url("@/static/images/demand/line.png");
+            background-image: url("@/subPackage2/static/demand/line.png");
             background-repeat: no-repeat;
             background-size: contain;
             z-index: 1;

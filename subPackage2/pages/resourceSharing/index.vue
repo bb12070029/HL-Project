@@ -2,60 +2,54 @@
   <view class="container">
     <!-- 页面标题 -->
     <!-- <view class="banner">
-        <image
-          src="@/static/images/financial/banner.png"
-          class="banner-image"
-          mode="widthFix"
-        />
-      </view> -->
+      <image
+        src="@/subPackage3/static/financial/banner.png"
+        class="banner-image"
+        mode="widthFix"
+      />
+    </view> -->
     <view class="content">
       <view class="content-header">
-        <view class="content-title">企业挂牌上市服务 </view>
+        <view class="content-title">资源共享 </view>
         <view class="content-desc"
-          >开发区设立企业挂牌上市专项服务团队，提供专业指导和政策支持，帮助园区企业对接资本市场，加快推进企业上市进程。
+          >为切实提升园区营商环境，帮助企业开拓市场，提升园区企业资源内循环解决企业上下游资源匮乏问题，打通河北沙城经济开发区牵头建立"资源共享池"，搭建高效的沟通桥梁，为企业提供适配的共享服务，推动开发区企业高质量发展。
         </view>
       </view>
       <view class="content-list">
-        <view class="content-item">
-          <view class="semicircle"></view>
-          <text class="semicircleCard-title">资源共享咨询 </text>
-          <view class="content-item-content">
-            <view class="content-item-content-title">
-              <image
-                src="@/static/images/financial/listingServicesIcon.png"
-                class="content-item-content-title-image"
-                mode="widthFix"
-              />
-              <text>企业挂牌上市全流程指导图</text>
-            </view>
-            <view class="content-item-content-desc">
-              <image
-                src="@/static/images/financial/listingServices.png"
-                class="content-item-content-desc-image"
-                mode="widthFix"
-              />
-            </view>
-          </view>
+        <view class="content-item" @click="navigateToBusiness">
+          <image
+            src="@/subPackage3/static/financial/btnBg2.png"
+            class="content-item-image"
+            mode="widthFix"
+          />
+          <text class="content-item-title content-item-title-2"
+            >企业产品展示</text
+          >
+        </view>
+        <view class="content-item" @click="navigateToWorkshop">
+          <image
+            src="@/subPackage3/static/financial/btnBg2.png"
+            class="content-item-image"
+            mode="widthFix"
+          />
+          <text class="content-item-title content-item-title-2"
+            >园区空闲厂房</text
+          >
         </view>
       </view>
-      <!-- 联系方式 -->
+      <!-- 咨询 -->
       <view class="consult">
         <view class="semicircle"></view>
-        <text class="semicircleCard-title">联系方式</text>
+        <text class="semicircleCard-title">资源共享咨询 </text>
         <view class="consult-content">
           <view class="consult-top">
             <view class="consult-top-item">
-              <text class="consult-top-item-title">开发区经发局：</text>
-              <text class="number" @click="callPhone('0313-6800916')"
-                >0313-6800916</text
-              >
+              <text class="consult-top-item-title">联系人：</text>
+              <text>李经理</text>
             </view>
-            <view class="consult-top-item" @click="callPhone('13898765432')">
-              <text class="consult-top-item-title">李主任：</text>
-              <text class="number">
-                13898765432
-                <up-icon name="phone-fill" size="20" color="#0345FA"></up-icon
-              ></text>
+            <view class="consult-top-item" @click="callPhone('0313-6809816')">
+              <text class="consult-top-item-title">联系电话：</text>
+              <text>0313-6809816<up-icon name="phone-fill" size="20" color="#0345FA"></up-icon></text>
             </view>
           </view>
           <view class="consult-desc">
@@ -64,7 +58,7 @@
               class="consult-desc-image"
               mode="widthFix"
             />
-            <view class="consult-desc-text">扫码获取挂牌上市服务</view>
+            <view class="consult-desc-text">扫码访问资源共享平台</view>
           </view>
         </view>
       </view>
@@ -77,6 +71,16 @@ import { ref } from "vue";
 const callPhone = (number) => {
   uni.makePhoneCall({
     phoneNumber: number,
+  });
+};
+const navigateToBusiness = () => {
+  uni.navigateTo({
+    url: "/subPackage2/pages/resourceSharing/business",
+  });
+};
+const navigateToWorkshop = () => {
+  uni.navigateTo({
+    url: "/subPackage2/pages/resourceSharing/workshop",
   });
 };
 </script>
@@ -118,24 +122,21 @@ const callPhone = (number) => {
     .content-list {
       margin-top: 20rpx;
       .content-item {
-        @include semicircleCard;
-        .content-item-content {
-          .content-item-content-title {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 50rpx;
-            .content-item-content-title-image {
-              width: 29rpx;
-              height: 29rpx;
-              margin-right: 10rpx;
-            }
-          }
+        text-align: center;
+        position: relative;
+        margin-bottom: 10rpx;
+        .content-item-title {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          color: $white;
+          font-size: 28rpx;
+          transform: translateY(-50%);
         }
-        .content-item-content-desc {
-          .content-item-content-desc-image {
-            width: 100%;
-          }
+        .content-item-title-2 {
+          color: $text-color;
         }
       }
     }
@@ -145,7 +146,7 @@ const callPhone = (number) => {
         border: 1px solid #0345fa;
         border-radius: 10rpx;
         .consult-top {
-          background-color: #edf1ff;
+          background-color: #EDF1FF;
           border-radius: 10rpx 10rpx 0 0;
           padding: 25rpx 35rpx;
           .consult-top-item {
@@ -155,9 +156,6 @@ const callPhone = (number) => {
             }
             .consult-top-item-text {
               color: #000000;
-            }
-            .number {
-              color: $link-color;
             }
           }
         }

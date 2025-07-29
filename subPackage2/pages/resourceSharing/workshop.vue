@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
       <image
-        src="@/static/images/financial/banner.png"
+        src="@/subPackage3/static/financial/banner.png"
         class="banner-image"
         mode="widthFix"
       />
@@ -20,7 +20,7 @@
         <text class="semicircleCard-title">资源共享咨询 </text>
         <view class="content-item">
           <image
-            src="@/static/images/resourceSharing/businessListImg.png"
+            src="@/subPackage2/static/resourceSharing/businessListImg.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -29,7 +29,7 @@
               <view class="content-item-desc-title-name"> 厂房名称 </view>
               <view class="content-item-desc-title-text">
                 <image
-                  src="@/static/images/resourceSharing/workshopIcon.png"
+                  src="@/subPackage2/static/resourceSharing/workshopIcon.png"
                   class="content-item-desc-title-image"
                   mode="widthFix"
                 />
@@ -38,7 +38,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon1.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon1.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -46,7 +46,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon2.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon2.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -54,7 +54,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon3.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon3.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -64,7 +64,7 @@
         </view>
         <view class="content-item">
           <image
-            src="@/static/images/resourceSharing/businessListImg.png"
+            src="@/subPackage2/static/resourceSharing/businessListImg.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -73,7 +73,7 @@
               <view class="content-item-desc-title-name"> 厂房名称 </view>
               <view class="content-item-desc-title-text">
                 <image
-                  src="@/static/images/resourceSharing/workshopIcon.png"
+                  src="@/subPackage2/static/resourceSharing/workshopIcon.png"
                   class="content-item-desc-title-image"
                   mode="widthFix"
                 />
@@ -82,7 +82,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon1.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon1.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -90,7 +90,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon2.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon2.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -98,7 +98,7 @@
             </view>
             <view class="content-item-desc-item">
               <image
-                src="@/static/images/resourceSharing/workshopIcon3.png"
+                src="@/subPackage2/static/resourceSharing/workshopIcon3.png"
                 class="content-item-desc-item-image"
                 mode="widthFix"
               />
@@ -151,12 +151,12 @@ const callPhone = () => {
 };
 const navigateToBusiness = () => {
   uni.navigateTo({
-    url: "/pages/resourceSharing/business",
+    url: "/subPackage2/pages/resourceSharing/business",
   });
 };
 const navigateToWorkshop = () => {
   uni.navigateTo({
-    url: "/pages/resourceSharing/workshop",
+    url: "/subPackage2/pages/resourceSharing/workshop",
   });
 };
 </script>

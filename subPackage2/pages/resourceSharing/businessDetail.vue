@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <view class="banner">
       <image
-        src="@/static/images/resourceSharing/businessListImg.png"
+        src="@/subPackage2/static/resourceSharing/businessListImg.png"
         class="banner-image"
         mode="widthFix"
       />
@@ -43,7 +43,7 @@
         <view class="productAndServicelist">
           <view class="productAndService-item">
             <image
-              src="@/static/images/resourceSharing/businessListImg.png"
+              src="@/subPackage2/static/resourceSharing/businessListImg.png"
               class="productAndService-image"
               mode="widthFix"
             />
@@ -56,7 +56,7 @@
           </view>
           <view class="productAndService-item">
             <image
-              src="@/static/images/businessSupervision/icon.png"
+              src="@/subPackage1/static/businessSupervision/icon.png"
               class="productAndService-image"
               mode="widthFix"
             />
@@ -69,7 +69,7 @@
           </view>
           <view class="productAndService-item">
             <image
-              src="@/static/images/businessSupervision/icon.png"
+              src="@/subPackage1/static/businessSupervision/icon.png"
               class="productAndService-image"
               mode="widthFix"
             />
@@ -87,14 +87,14 @@
         <view class="number-box-list">
           <view class="number-box-item">
             <image
-              src="@/static/images/projectInvestment/icon8.png"
+              src="@/subPackage1/static/projectInvestment/icon8.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">联系人：张经理</view>
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon3.png"
+              src="@/subPackage1/static/businessSupervision/icon3.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">
@@ -105,7 +105,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon4.png"
+              src="@/subPackage1/static/businessSupervision/icon4.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -114,7 +114,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon2.png"
+              src="@/subPackage1/static/businessSupervision/icon2.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"

@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <view class="banner">
       <image
-        src="@/static/images/financial/productDetailBanner.png"
+        src="@/subPackage3/static/financial/productDetailBanner.png"
         class="banner-image"
         mode="widthFix"
       />
@@ -66,14 +66,14 @@
         <view class="number-box-list">
           <view class="number-box-item">
             <image
-              src="@/static/images/projectInvestment/icon8.png"
+              src="@/subPackage1/static/projectInvestment/icon8.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">联系人：张经理</view>
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/projectInvestment/icon9.png"
+              src="@/subPackage1/static/projectInvestment/icon9.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">
@@ -106,15 +106,23 @@ import { ref } from "vue";
     }
   }
   .content {
-    // transform: translateY(-280rpx);
+    transform: translateY(-230rpx);
     padding: 30rpx;
     .content-info {
+      background-color: $white;
+      border-radius: 18rpx;
+      padding: 40rpx;
       .content-info-title {
         @include title-text;
         margin-bottom: 30rpx;
+        padding:0;
       }
       .content-info-desc {
+        color: $text-color-light;
+        font-size: 28rpx;
         .content-info-desc-item {
+          line-height: 40rpx;
+          margin-bottom: 10rpx;
         }
       }
     }

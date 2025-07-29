@@ -3,14 +3,14 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
             <image
-              src="@/static/images/financial/banner.png"
+              src="@/subPackage3/static/financial/banner.png"
               class="banner-image"
               mode="widthFix"
             />
           </view> -->
     <view class="content">
       <image
-        src="@/static/images/businessSupervision/banner.png"
+        src="@/subPackage1/static/businessSupervision/banner.png"
         class="content-image"
       />
       <view class="content-header">
@@ -50,7 +50,7 @@
         <view class="number-box-list number-box-list-blue">
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon.png"
+              src="@/subPackage1/static/businessSupervision/icon.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -59,7 +59,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon.png"
+              src="@/subPackage1/static/businessSupervision/icon.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">
@@ -68,7 +68,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon.png"
+              src="@/subPackage1/static/businessSupervision/icon.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -82,7 +82,7 @@
         <view class="number-box-list">
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon1.png"
+              src="@/subPackage1/static/businessSupervision/icon1.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -91,14 +91,14 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon2.png"
+              src="@/subPackage1/static/businessSupervision/icon2.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">邮编：075400</view>
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon2.png"
+              src="@/subPackage1/static/businessSupervision/icon2.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -107,7 +107,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon3.png"
+              src="@/subPackage1/static/businessSupervision/icon3.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">
@@ -118,7 +118,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon4.png"
+              src="@/subPackage1/static/businessSupervision/icon4.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -127,7 +127,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/businessSupervision/icon1.png"
+              src="@/subPackage1/static/businessSupervision/icon1.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -139,14 +139,14 @@
       <!-- 风险提示 -->
       <view class="risk-warning">
         <image
-          src="@/static/images/demand/tips.png"
+          src="@/subPackage2/static/demand/tips.png"
           class="risk-warning-bg"
           mode="widthFix"
         />
         <view class="risk-warning-content">
           <view class="risk-warning-title">
             <image
-              src="@/static/images/demand/tipsIcon.png"
+              src="@/subPackage2/static/demand/tipsIcon.png"
               class="risk-warning-title-image"
             />
             <text class="risk-warning-title-text">温馨</text>提示

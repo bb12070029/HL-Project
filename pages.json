@@ -17,159 +17,176 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#f7f8fa"
       }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subPackage1",
+      "pages": [
+        {
+          "path": "pages/technology/index",
+          "style": {
+            "navigationBarTitleText": "科技申报",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/projectInvestment/index",
+          "style": {
+            "navigationBarTitleText": "项目投资",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/legalService/index",
+          "style": {
+            "navigationBarTitleText": "法律服务",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/humanResource/index",
+          "style": {
+            "navigationBarTitleText": "人力资源",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/businessSupervision/index",
+          "style": {
+            "navigationBarTitleText": "营商监督",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        }
+      ]
     },
     {
-      "path": "pages/financial/index",
-      "style": {
-        "navigationBarTitleText": "金融服务",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
+      "root": "subPackage2",
+      "pages": [
+        {
+          "path": "pages/resourceSharing/index",
+          "style": {
+            "navigationBarTitleText": "资源共享",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/resourceSharing/business",
+          "style": {
+            "navigationBarTitleText": "园区企业",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/resourceSharing/workshop",
+          "style": {
+            "navigationBarTitleText": "园区空闲厂房",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/resourceSharing/businessDetail",
+          "style": {
+            "navigationBarTitleText": "企业详情",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/demand/index",
+          "style": {
+            "navigationBarTitleText": "诉求反映",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/demand/submitDemand",
+          "style": {
+            "navigationBarTitleText": "提交诉求",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        }
+      ]
     },
     {
-      "path": "pages/financial/product",
-      "style": {
-        "navigationBarTitleText": "金融产品服务方式",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/financial/bank",
-      "style": {
-        "navigationBarTitleText": "银行详情",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/financial/productDetail",
-      "style": {
-        "navigationBarTitleText": "金融产品详情",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/financial/serversDemand",
-      "style": {
-        "navigationBarTitleText": "企业融资服务需求",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/financial/listingServices",
-      "style": {
-        "navigationBarTitleText": "企业挂牌上市服务",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/technology/index",
-      "style": {
-        "navigationBarTitleText": "科技申报",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/resourceSharing/index",
-      "style": {
-        "navigationBarTitleText": "资源共享",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/legalService/index",
-      "style": {
-        "navigationBarTitleText": "法律服务",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/projectInvestment/index",
-      "style": {
-        "navigationBarTitleText": "项目投资",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/demand/index",
-      "style": {
-        "navigationBarTitleText": "诉求反映",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/demand/submitDemand",
-      "style": {
-        "navigationBarTitleText": "提交诉求",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/humanResource/index",
-      "style": {
-        "navigationBarTitleText": "人力资源",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/businessSupervision/index",
-      "style": {
-        "navigationBarTitleText": "营商监督",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/resourceSharing/business",
-      "style": {
-        "navigationBarTitleText": "园区企业",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/resourceSharing/workshop",
-      "style": {
-        "navigationBarTitleText": "园区空闲厂房",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
-    },
-    {
-      "path": "pages/resourceSharing/businessDetail",
-      "style": {
-        "navigationBarTitleText": "企业详情",
-        "navigationBarBackgroundColor": "#1989fa",
-        "navigationBarTextStyle": "white",
-        "backgroundColor": "#f7f8fa"
-      }
+      "root": "subPackage3",
+      "pages": [
+        {
+          "path": "pages/financial/index",
+          "style": {
+            "navigationBarTitleText": "金融服务",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/financial/product",
+          "style": {
+            "navigationBarTitleText": "金融产品服务方式",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/financial/bank",
+          "style": {
+            "navigationBarTitleText": "银行详情",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/financial/productDetail",
+          "style": {
+            "navigationBarTitleText": "金融产品详情",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/financial/serversDemand",
+          "style": {
+            "navigationBarTitleText": "企业融资服务需求",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        },
+        {
+          "path": "pages/financial/listingServices",
+          "style": {
+            "navigationBarTitleText": "企业挂牌上市服务",
+            "navigationBarBackgroundColor": "#1989fa",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#f7f8fa"
+          }
+        }
+      ]
     }
   ],
   "tabBar": {

@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <view class="banner">
       <image
-        src="@/static/images/financial/productDetailbanner.png"
+        src="@/subPackage3/static/financial/productDetailbanner.png"
         class="banner-image"
         mode="widthFix"
       />
@@ -12,7 +12,7 @@
       <view class="content-list">
         <view class="content-item">
           <image
-            src="@/static/images/financial/bankIcon2.png"
+            src="@/subPackage3/static/financial/bankIcon2.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -28,7 +28,7 @@
         </view>
         <view class="content-item">
           <image
-            src="@/static/images/financial/bankIcon2.png"
+            src="@/subPackage3/static/financial/bankIcon2.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -44,7 +44,7 @@
         </view>
         <view class="content-item">
           <image
-            src="@/static/images/financial/bankIcon2.png"
+            src="@/subPackage3/static/financial/bankIcon2.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -64,7 +64,7 @@
         <view class="number-box-list">
           <view class="number-box-item">
             <image
-              src="@/static/images/projectInvestment/icon11.png"
+              src="@/subPackage1/static/projectInvestment/icon11.png"
               class="number-box-image"
             />
             <view class="number-box-item-text"
@@ -73,7 +73,7 @@
           </view>
           <view class="number-box-item">
             <image
-              src="@/static/images/projectInvestment/icon9.png"
+              src="@/subPackage1/static/projectInvestment/icon9.png"
               class="number-box-image"
             />
             <view class="number-box-item-text">
@@ -92,7 +92,7 @@
 import { ref } from "vue";
 const navigateToProduct = () => {
   uni.navigateTo({
-    url: "/pages/financial/productDetail",
+    url: "/subPackage3/pages/financial/productDetail",
   });
 };
 </script>
@@ -157,6 +157,7 @@ const navigateToProduct = () => {
         .content-item-button {
           width: 100rpx;
           height: 50rpx;
+          line-height: 50rpx;
           background-color: $link-color;
           color: $white;
           border-radius: 10rpx;

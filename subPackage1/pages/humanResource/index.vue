@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
             <image
-              src="@/static/images/financial/banner.png"
+              src="@/subPackage3/static/financial/banner.png"
               class="banner-image"
               mode="widthFix"
             />
@@ -20,7 +20,7 @@
           <view class="semicircle"></view>
           <text class="semicircleCard-title">人才招聘服务 </text>
           <image
-            src="@/static/images/projectInvestment/banner.png"
+            src="@/subPackage1/static/projectInvestment/banner.png"
             class="content-item-image"
           />
           <view class="content-item-desc">
@@ -34,7 +34,7 @@
               </view>
               <view class="content-item-desc-item-btn">
                 <image
-                  src="@/static/images/humanResource/arrowRight.png"
+                  src="@/subPackage1/static/humanResource/arrowRight.png"
                   class="content-item-desc-item-image"
                 />
               </view>
@@ -48,7 +48,7 @@
               </view>
               <view class="content-item-desc-item-btn">
                 <image
-                  src="@/static/images/humanResource/arrowRight.png"
+                  src="@/subPackage1/static/humanResource/arrowRight.png"
                   class="content-item-desc-item-image"
                 />
               </view>
@@ -62,7 +62,7 @@
               </view>
               <view class="content-item-desc-item-btn">
                 <image
-                  src="@/static/images/humanResource/arrowRight.png"
+                  src="@/subPackage1/static/humanResource/arrowRight.png"
                   class="content-item-desc-item-image"
                 />
               </view>

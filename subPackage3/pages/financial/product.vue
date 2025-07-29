@@ -3,7 +3,7 @@
     <!-- 页面标题 -->
     <!-- <view class="banner">
         <image
-          src="@/static/images/financial/banner.png"
+          src="@/subPackage3/static/financial/banner.png"
           class="banner-image"
           mode="widthFix"
         />
@@ -20,7 +20,7 @@
         <view class="semicircleCard-title">合作银行</view>
         <view class="content-item" @click="navigateToProductDetail">
           <image
-            src="@/static/images/financial/bankIcon.png"
+            src="@/subPackage3/static/financial/bankIcon.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -31,14 +31,14 @@
             </view>
           </view>
           <image
-            src="@/static/images/financial/bankRight.png"
+            src="@/subPackage3/static/financial/bankRight.png"
             class="content-item-arrow"
             mode="widthFix"
           />
         </view>
         <view class="content-item">
           <image
-            src="@/static/images/financial/bankIcon.png"
+            src="@/subPackage3/static/financial/bankIcon.png"
             class="content-item-image"
             mode="widthFix"
           />
@@ -49,7 +49,7 @@
             </view>
           </view>
           <image
-            src="@/static/images/financial/bankRight.png"
+            src="@/subPackage3/static/financial/bankRight.png"
             class="content-item-arrow"
             mode="widthFix"
           />
@@ -63,7 +63,7 @@
 import { ref } from "vue";
 const navigateToProductDetail = () => {
   uni.navigateTo({
-    url: "/pages/financial/bank",
+    url: "/subPackage3/pages/financial/bank",
   });
 };
 </script>
